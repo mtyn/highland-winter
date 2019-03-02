@@ -1,10 +1,10 @@
 {
-    "name": "polar",
-    "displayName": "Polar",
-    "description": "A light colour scheme based on arcticicestudio's Nord theme",
+    "name": "highland-winter",
+    "displayName": "Highland Winter",
+    "description": "A light colour scheme.",
     "publisher": "merithayan",
-    "version": "0.0.7",
-    "repository": "https://www.github.com/mtyn/polar",
+    "version": "0.0.1",
+    "repository": "https://www.github.com/mtyn/highland-winter",
     "engines": {
         "vscode": "^1.30.0"
     },
@@ -14,9 +14,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Polar",
+                "label": "Highland Winter",
                 "uiTheme": "vs",
-                "path": "./themes/Polar-color-theme.json"
+                "path": "./themes/Highland-winter-color-theme.json"
             }
         ]
     }
