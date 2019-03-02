@@ -1,0 +1,74 @@
+#
+# Highland Winter Tmux Theme
+# Created by Tim Hull <tim@mtyn.uk>.
+#
+# References: 
+#   https://github.com/jimeh/tmux-themepack/blob/master/powerline/block/blue.tmuxtheme
+#   https://github.com/arcticicestudio/nord-tmux
+#
+#
+
+# Status update interval
+set -g status-interval 1
+
+# Basic status bar colors
+set -g status-fg black
+set -g status-bg "#f4f4f5"
+
+# Left side of status bar
+set -g status-left-bg "#f4f4f5"
+set -g status-left-fg black
+set -g status-left-length 40
+set -g status-left "#[fg=#f4f4f5,bg=blue] %d-%b-%y #[fg=black,bg=#f4f4f5] %H:%M"
+
+# Right side of status bar
+set -g status-right-bg "#f4f4f5"
+set -g status-right-fg black
+set -g status-right-length 150
+set -g status-right "#[fg=#f4f4f5,bg=blue,bold] #H #[fg=#f4f4f5,bg=cyan,bold] #S "
+
+# Window status
+set -g window-status-format " #I:#W#F "
+set -g window-status-current-format " #I:#W#F "
+
+# Current window status
+set -g window-status-current-bg blue
+set -g window-status-current-fg "#eceff4"
+
+# Window with activity status
+set -g window-status-activity-bg blue  # fg and bg are flipped here due to
+set -g window-status-activity-fg "#f4f4f5" # a bug in tmux
+
+# Window separator
+set -g window-status-separator ""
+
+# Window status alignment
+set -g status-justify centre
+
+# Pane border
+set -g pane-border-bg default
+set -g pane-border-fg white
+
+# Active pane border
+set -g pane-active-border-bg default
+set -g pane-active-border-fg blue
+
+# Pane number indicator
+set -g display-panes-colour white
+set -g display-panes-active-colour blue
+
+# Clock mode
+set -g clock-mode-colour black
+set -g clock-mode-style 24
+
+# Message
+set -g message-bg "#f4f4f5"
+set -g message-fg black
+
+# Command message
+set -g message-command-bg "#f4f4f5"
+set -g message-command-fg black
+
+# Mode
+set -g mode-bg yellow
+set -g mode-fg black
