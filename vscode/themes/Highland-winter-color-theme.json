@@ -29,8 +29,7 @@
 		"editorWhitespace.foreground": "#E4E4E7b3",
 		"dropdown.listBackground": "#EFEFF1",
 		"listFilterWidget.background": "#EFEFF1",
-		""
-	  "editorWidget.background": "#EFEFF1",
+	  "editorWidget.background": "#fafafa",
 	  "editorWidget.border": "#fafafa",
 	  "editor.background": "#fafafa",
 	  "editor.foreground": "#303036",
